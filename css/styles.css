@@ -1,5 +1,6 @@
 .body {
   background-color: white;
+  font-family: roboto, sans-serif;
 }
 /*Common header*/
 .header {
@@ -8,30 +9,168 @@
 .logo-in-header {
 }
 
-.header-list {
+.header-list1 {
+  color: #757575;
+}
+.header-list2 {
+  color: #757575;
+}
+.header-list3 {
   color: #757575;
 }
 
-.header-list:hover {
-  color: blue;
+.header-list1:hover,
+.header-list2:hover,
+.header-list3:hover {
+  color: #2196f3;
 }
 
 .header-contact-list {
+  float: right;
+  margin: 33px 0px 25px 93px;
   color: #757575;
 }
 
 .header-contact-list:hover {
-  color: blue;
+  color: #2196f3;
 }
 
 /*Main css*/
+.main {
+  background: white;
+}
+
+.hero-section {
+  background-color: #2f303a;
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
+}
+.hero-section-text {
+  color: white;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 2.3;
+  width: 696px;
+  height: 120px;
+  left: 452px;
+  top: 280px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero-section-button {
+  background-color: #2196f3;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+  text-align: center;
+}
 
 /*Main css portfolio*/
-.button-portfolio {
-  color: black;
+.main-portfolio-element1 {
+  width: 370px;
+  height: 404px;
+  left: 215px;
+  top: 262px;
 }
-.button-portfolio:hover {
-  color: blue;
+.main-portfolio-element2 {
+  width: 370px;
+  height: 404px;
+  left: 615px;
+  top: 262px;
+}
+.main-portfolio-element3 {
+}
+.main-portfolio-element4 {
+}
+
+.main-portfolio-element5 {
+}
+.main-portfolio-element6 {
+}
+
+.main-portfolio-element7 {
+}
+.main-portfolio-element8 {
+}
+.main-portfolio-element9 {
+}
+/*buttons*/
+.button-portfolio1 {
+  font-family: inherit;
+  color: black;
+  background-color: #2196f3;
+  width: 73px;
+  height: 38px;
+  left: 495px;
+  top: 174px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1;
+  letter-spacing: 0.03em;
+}
+.button-portfolio2 {
+  font-family: inherit;
+  color: black;
+  background-color: #2196f3;
+  width: 128px;
+  height: 38px;
+  left: 576px;
+  top: 174px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1;
+  letter-spacing: 0.03em;
+}
+.button-portfolio3 {
+  font-family: inherit;
+  color: black;
+  background-color: #2196f3;
+  width: 145px;
+  height: 38px;
+  left: 712px;
+  top: 174px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1;
+  letter-spacing: 0.03em;
+}
+.button-portfolio4 {
+  font-family: inherit;
+  color: black;
+  background-color: #2196f3;
+  width: 103px;
+  height: 38px;
+  left: 865px;
+  top: 174px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1;
+  letter-spacing: 0.03em;
+}
+.button-portfolio5 {
+  font-family: inherit;
+  color: black;
+  background-color: #2196f3;
+  width: 130px;
+  height: 38px;
+  left: 976px;
+  top: 174px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1;
+  letter-spacing: 0.03em;
+}
+.button-portfolio1:hover,
+.button-portfolio2:hover,
+.button-portfolio3:hover,
+.button-portfolio4:hover,
+.button-portfolio5:hover {
+  color: white;
 }
 
 /*Common footer*/
