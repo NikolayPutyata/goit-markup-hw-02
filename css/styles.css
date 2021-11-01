@@ -1,3 +1,46 @@
 .body {
   background-color: white;
 }
+/*Common header*/
+.header {
+}
+
+.logo-in-header {
+}
+
+.header-list {
+  color: #757575;
+}
+
+.header-list:hover {
+  color: blue;
+}
+
+.header-contact-list {
+  color: #757575;
+}
+
+.header-contact-list:hover {
+  color: blue;
+}
+
+/*Main css*/
+
+/*Main css portfolio*/
+.button-portfolio {
+  color: black;
+}
+.button-portfolio:hover {
+  color: blue;
+}
+
+/*Common footer*/
+.footer {
+  background-color: #2f303a;
+}
+
+.address {
+}
+
+.address-list {
+}
