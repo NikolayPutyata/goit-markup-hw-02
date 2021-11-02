@@ -1,35 +1,30 @@
 .body {
+  color: #212121;
   background-color: white;
   font-family: roboto, sans-serif;
 }
-/*Common header*/
+/*Header*/
 .header {
 }
 
 .logo-in-header {
 }
 
-.header-list1 {
+.header-element1,
+.header-element2,
+.header-element3 {
   color: #757575;
 }
-.header-list2 {
-  color: #757575;
-}
-.header-list3 {
-  color: #757575;
-}
-
-.header-list1:hover,
-.header-list2:hover,
-.header-list3:hover {
+.header-element1:hover,
+.header-element2:hover,
+.header-element3:hover {
   color: #2196f3;
 }
 
-.header-contact-list {
+.header-contact {
   color: #757575;
 }
-
-.header-contact-list:hover {
+.header-contact:hover {
   color: #2196f3;
 }
 
@@ -45,57 +40,56 @@
   left: 0px;
   top: 80px;
 }
-.hero-section-text {
+.hero-text {
   color: white;
   font-weight: 900;
   font-size: 44px;
   line-height: 2.3;
-  width: 696px;
-  height: 120px;
-  left: 452px;
-  top: 280px;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 
-.hero-section-button {
+.hero-button {
   background-color: #2196f3;
-  width: 200px;
-  height: 50px;
-  left: 700px;
-  top: 430px;
   text-align: center;
 }
 
 /*Main css portfolio*/
-.main-portfolio-element1 {
-  width: 370px;
-  height: 404px;
-  left: 215px;
-  top: 262px;
+.main-element1 {
 }
-.main-portfolio-element2 {
-  width: 370px;
-  height: 404px;
-  left: 615px;
-  top: 262px;
+.main-element2 {
 }
-.main-portfolio-element3 {
+.main-element3 {
 }
-.main-portfolio-element4 {
+.main-element4 {
 }
 
-.main-portfolio-element5 {
+.main-element5 {
 }
-.main-portfolio-element6 {
+.main-element6 {
 }
 
-.main-portfolio-element7 {
+.main-element7 {
 }
-.main-portfolio-element8 {
+.main-element8 {
 }
-.main-portfolio-element9 {
+.main-element9 {
+}
+
+.element-heading {
+  font-size: 18px;
+  line-height: 36px;
+  color: #212121;
+}
+.element-text {
+  font-size: 16px;
+  line-height: 30px;
+  color: #757575;
+}
+.main-heading {
+  font-size: 36px;
+  line-height: 42px;
 }
 /*buttons*/
 .button-portfolio1 {
@@ -171,13 +165,19 @@
   color: white;
 }
 
-/*Common footer*/
+/*Footer*/
 .footer {
   background-color: #2f303a;
 }
-
-.address {
+.logo-in-footer {
 }
 
-.address-list {
+.footer-list {
+}
+
+.footer-contact {
+  color: #757575;
+}
+.footer-contact:hover {
+  color: #2196f3;
 }
