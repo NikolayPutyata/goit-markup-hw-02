@@ -51,6 +51,7 @@
 }
 
 .hero-button {
+  cursor: pointer;
   background-color: #2196f3;
   margin-left: 700px;
   margin-top: 150px;
@@ -63,11 +64,18 @@
   font-size: 36px;
   line-height: 1.2;
 }
+.secondary-heading {
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+}
 
 /*Portfolio*/
 .button-portfolio1 {
+  cursor: pointer;
   font-family: inherit;
-  color: black;
+  color: inherit;
   background-color: #2196f3;
   width: 73px;
   height: 38px;
@@ -79,8 +87,9 @@
   letter-spacing: 0.03em;
 }
 .button-portfolio2 {
+  cursor: pointer;
   font-family: inherit;
-  color: black;
+  color: inherit;
   background-color: #2196f3;
   width: 128px;
   height: 38px;
@@ -92,8 +101,9 @@
   letter-spacing: 0.03em;
 }
 .button-portfolio3 {
+  cursor: pointer;
   font-family: inherit;
-  color: black;
+  color: inherit;
   background-color: #2196f3;
   width: 145px;
   height: 38px;
@@ -105,8 +115,9 @@
   letter-spacing: 0.03em;
 }
 .button-portfolio4 {
+  cursor: pointer;
   font-family: inherit;
-  color: black;
+  color: inherit;
   background-color: #2196f3;
   width: 103px;
   height: 38px;
@@ -118,8 +129,9 @@
   letter-spacing: 0.03em;
 }
 .button-portfolio5 {
+  cursor: pointer;
   font-family: inherit;
-  color: black;
+  color: inherit;
   background-color: #2196f3;
   width: 130px;
   height: 38px;
