@@ -1,206 +1,167 @@
-.body {
+:root .body {
   color: #212121;
   background-color: white;
   font-family: 'roboto', sans-serif;
-  list-style: none;
 }
 /*Header*/
 .header {
 }
 
-.logo-in-header {
+.logo {
 }
-.header-list {
+.navigation {
   list-style: none;
 }
-.header-element1,
-.header-element2,
-.header-element3 {
-  color: #757575;
+.navigation-item {
 }
-.header-element1:hover,
-.header-element2:hover,
-.header-element3:hover {
+.navigation-link {
+  color: #212121;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+}
+.navigation-link:hover {
+  color: #2196f3;
+}
+.navigation-link:focus {
   color: #2196f3;
 }
 
-.contact-list {
+.contacts {
   list-style: none;
 }
-.header-contact {
-  color: #757575;
+.contacts-item {
 }
-.header-contact:hover {
+.contacts-link {
+  color: #757575;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+}
+.contacts-link:hover {
+  color: #2196f3;
+}
+.contacts-link:focus {
   color: #2196f3;
 }
 
 /*Studio*/
-.main {
-  background: white;
+.hero {
+  background-color: #2f303a;
 }
 
-.hero-section {
-  background-color: #2f303a;
-  width: 1600px;
-  height: 600px;
-  left: 0px;
-  top: 80px;
-}
-.hero-text {
+.hero-title {
   color: white;
   font-weight: 900;
   font-size: 44px;
-  line-height: 2.3;
+  line-height: 1.3;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  padding: 200px 452px 280px 452px;
 }
 
 .hero-button {
   cursor: pointer;
   background-color: #2196f3;
-  margin-left: 700px;
-  margin-top: 150px;
+  color: white;
   width: 200px;
   height: 50px;
-  left: 700px;
-  top: 430px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.9;
 }
 .main-heading {
   font-size: 36px;
   line-height: 1.2;
 }
-.secondary-heading {
+.features {
+  list-style: none;
+}
+.features-item {
+}
+.features-heading {
   text-transform: uppercase;
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.03em;
 }
-.main-list {
+.features-text {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #757575;
+}
+.works {
   list-style: none;
 }
-.main-img {
+.works-item {
+}
+.team {
   list-style: none;
+}
+.team-item {
+}
+.team-heading {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  color: #212121;
+}
+.team-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.2;
+  color: #757575;
 }
 
 /*Portfolio*/
-.button-block {
+.filter {
   list-style: none;
 }
-.button-portfolio1 {
+.filter-button {
   cursor: pointer;
   font-family: inherit;
   color: inherit;
-  background-color: #2196f3;
-  width: 73px;
-  height: 38px;
-  left: 495px;
-  top: 174px;
+  background-color: #f5f4fa;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
   letter-spacing: 0.03em;
 }
-.button-portfolio2 {
-  cursor: pointer;
-  font-family: inherit;
-  color: inherit;
-  background-color: #2196f3;
-  width: 128px;
-  height: 38px;
-  left: 576px;
-  top: 174px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.6;
-  letter-spacing: 0.03em;
-}
-.button-portfolio3 {
-  cursor: pointer;
-  font-family: inherit;
-  color: inherit;
-  background-color: #2196f3;
-  width: 145px;
-  height: 38px;
-  left: 712px;
-  top: 174px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.6;
-  letter-spacing: 0.03em;
-}
-.button-portfolio4 {
-  cursor: pointer;
-  font-family: inherit;
-  color: inherit;
-  background-color: #2196f3;
-  width: 103px;
-  height: 38px;
-  left: 865px;
-  top: 174px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.6;
-  letter-spacing: 0.03em;
-}
-.button-portfolio5 {
-  cursor: pointer;
-  font-family: inherit;
-  color: inherit;
-  background-color: #2196f3;
-  width: 130px;
-  height: 38px;
-  left: 976px;
-  top: 174px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.6;
-  letter-spacing: 0.03em;
-}
-.button-portfolio1:hover,
-.button-portfolio2:hover,
-.button-portfolio3:hover,
-.button-portfolio4:hover,
-.button-portfolio5:hover {
+
+.filter-button:hover {
   color: white;
+  background-color: #2196f3;
+}
+.filter-button:focus {
+  color: white;
+  background-color: #2196f3;
 }
 
-.main-element1 {
-  list-style: none;
+.gallery-link {
+  text-decoration: none;
 }
-.main-element2 {
-  list-style: none;
-}
-.main-element3 {
-  list-style: none;
-}
-.main-element4 {
-  list-style: none;
-}
-
-.main-element5 {
-  list-style: none;
-}
-.main-element6 {
+.gallery-item {
   list-style: none;
 }
 
-.main-element7 {
-  list-style: none;
-}
-.main-element8 {
-  list-style: none;
-}
-.main-element9 {
-  list-style: none;
-}
-
-.element-heading {
+.gallery-title {
+  font-style: normal;
+  font-weight: bold;
   font-size: 18px;
   line-height: 2;
   color: #212121;
 }
-.element-text {
+.gallery-text {
+  font-style: normal;
+  font-weight: normal;
   font-size: 16px;
   line-height: 1.8;
   color: #757575;
@@ -209,8 +170,6 @@
 /*Footer*/
 .footer {
   background-color: #2f303a;
-}
-.logo-in-footer {
 }
 
 .footer-list {
