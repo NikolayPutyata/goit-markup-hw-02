@@ -5,7 +5,6 @@
   --some-title-color: #ffffff;
 }
 .body {
-  color: --main-heading-color;
   font-family: 'roboto', sans-serif;
 }
 /*------------------------------------------------------------HEADER BLOCK---------------------------------------------------------*/
@@ -30,7 +29,6 @@
 .navigation-link {
   color: var(--main-heading-color);
   text-decoration: none;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
@@ -47,7 +45,6 @@
 .contacts-link {
   color: var(--main-paragraph-color);
   text-decoration: none;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
@@ -83,9 +80,14 @@
   line-height: 1.87;
   letter-spacing: 0.06em;
 }
+.hero-button:focus,
+.hero-button:hover {
+  background-color: #188ce8;
+}
 /*FEATURES*/
 .features {
   list-style: none;
+  display: inline-flex;
 }
 .features-heading {
   color: var(--main-heading-color);
@@ -113,6 +115,7 @@
 }
 .works {
   list-style: none;
+  display: inline-flex;
 }
 /*TEAM*/
 .own-team {
@@ -125,6 +128,7 @@
 }
 .team {
   list-style: none;
+  display: flex;
 }
 .team-heading {
   color: var(--main-heading-color);
@@ -145,6 +149,8 @@
 /*FILTER*/
 .filter {
   list-style: none;
+  display: flex;
+  flex-wrap: wrap;
 }
 .filter-button {
   cursor: pointer;
@@ -165,6 +171,8 @@
 /*GALLERY*/
 .gallery {
   list-style: none;
+  display: flex;
+  flex-wrap: wrap;
 }
 .gallery-link {
   text-decoration: none;
@@ -188,6 +196,8 @@
 /*----------------------------------------------------------Footer---------------------------------------------------------------------*/
 .footer {
   background-color: #2f303a;
+  display: flex;
+  flex-wrap: wrap;
 }
 /*LOGO*/
 .footer-logo {
@@ -209,9 +219,9 @@
 }
 
 .footer-map {
+  font-style: normal;
   color: var(--some-title-color);
   text-decoration: none;
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
